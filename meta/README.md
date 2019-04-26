@@ -19,6 +19,7 @@ link: https://meta-toolkit.org/setup-guide.html
 ## configure and build the project
     cmake ../ -DCMAKE_BUILD_TYPE=Release
     make
+    
 ## You can now test the system by running the following command:
 
     ./unit-test --reporter=spec
